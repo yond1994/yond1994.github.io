@@ -1,6 +1,6 @@
 // cambiar por url de api
-const backendUrl = "http://127.0.0.1:3100";
-
+// const backendUrl = "http://127.0.0.1:3100";
+const backendUrl = "https://portfolio-api-production-65d6.up.railway.app";
 var projectIndex = 0;
 function getCurrentProjects() {
   return db.projects.slice(projectIndex, projectIndex + 3);
